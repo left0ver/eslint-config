@@ -1,0 +1,24 @@
+{
+  "name": "@left0ver/eslint-config-vue",
+  "version": "0.0.0",
+  "description": "left0ver's eslint config for vue",
+  "author": "left0ver",
+  "license": "MIT",
+  "homepage": "https://github.com/left0ver/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/left0ver/eslint-config.git"
+  },
+  "bugs": "https://github.com/left0ver/eslint-config/issues",
+  "keywords": ["eslint-config", "eslint-config-vue"],
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@antfu/eslint-config-vue": "^0.34.1"
+  }
+}
