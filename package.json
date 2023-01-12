@@ -1,6 +1,6 @@
 {
   "name": "@left0ver/eslint-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "description": "eslint config repo",
   "author": "left0ver",

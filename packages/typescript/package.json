@@ -1,6 +1,6 @@
 {
   "name": "@left0ver/eslint-config-ts",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "left0ver's eslint config for typescript",
   "author": "left0ver",
   "license": "MIT",
@@ -10,7 +10,10 @@
     "url": "git+https://github.com/left0ver/eslint-config.git"
   },
   "bugs": "https://github.com/left0ver/eslint-config/issues",
-  "keywords": ["eslint-config", "eslint-config-ts"],
+  "keywords": [
+    "eslint-config",
+    "eslint-config-ts"
+  ],
   "main": "index.js",
   "files": [
     "*.js"
