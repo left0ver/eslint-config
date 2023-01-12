@@ -1,6 +1,6 @@
 {
   "name": "@left0ver/eslint-config-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "left0ver's eslint config for typescript",
   "author": "left0ver",
   "license": "MIT",
