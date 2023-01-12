@@ -21,6 +21,9 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
   "dependencies": {
     "@antfu/eslint-config-vue": "^0.34.1"
   }
