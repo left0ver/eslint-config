@@ -14,9 +14,9 @@ importers:
 
   packages/react:
     specifiers:
-      '@antfu/eslint-config-react': ^0.34.1
+      '@antfu/eslint-config-react': ^0.35.0
     dependencies:
-      '@antfu/eslint-config-react': 0.34.1
+      '@antfu/eslint-config-react': 0.35.1
 
   packages/typescript:
     specifiers:
@@ -114,13 +114,13 @@ packages:
       - typescript
     dev: false
 
-  /@antfu/eslint-config-react/0.34.1:
-    resolution: {integrity: sha512-nYe59se5Mq0/CGt7zIx3hjDvBQtYn8tPbR0Ctf1bfDnXs8dU023XT6wDesynl48HHY5pe/4GtLBRIPgoomx5Ww==}
+  /@antfu/eslint-config-react/0.35.1:
+    resolution: {integrity: sha512-jj3cIXaKDJ1u7Rn4OuT5GrIG6DHnCMWPdkBeLa8zg1auqf04hYA86PjB6bJlFmHdY1p2ZMfN1gP7VWroTzyW9A==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@antfu/eslint-config-ts': 0.34.1
-      eslint-plugin-react: 7.32.0
+      '@antfu/eslint-config-ts': 0.35.1
+      eslint-plugin-react: 7.32.2
       eslint-plugin-react-hooks: 4.6.0
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
@@ -1081,8 +1081,8 @@ packages:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
     dev: false
 
-  /eslint-plugin-react/7.32.0:
-    resolution: {integrity: sha512-vSBi1+SrPiLZCGvxpiZIa28fMEUaMjXtCplrvxcIxGzmFiYdsXQDwInEjuv5/i/2CTTxbkS87tE8lsQ0Qxinbw==}
+  /eslint-plugin-react/7.32.2:
+    resolution: {integrity: sha512-t2fBMa+XzonrrNkyVirzKlvn5RXzzPwRHtMvLAtVZrt8oxgnTQaYbU6SXTOO1mwQgp1y5+toMSKInnzGr0Knqg==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
