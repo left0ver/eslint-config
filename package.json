@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@left0ver/eslint-config-vue": "*",
-    "bumpp": "^8.2.1",
+    "bumpp": "^9.0.0",
     "eslint": "^8.31.0"
   }
 }
