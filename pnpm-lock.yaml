@@ -14,9 +14,9 @@ importers:
 
   packages/react:
     specifiers:
-      '@antfu/eslint-config-react': ^0.35.0
+      '@antfu/eslint-config-react': ^0.37.0
     dependencies:
-      '@antfu/eslint-config-react': 0.35.1
+      '@antfu/eslint-config-react': 0.37.0
 
   packages/typescript:
     specifiers:
@@ -116,12 +116,12 @@ packages:
       - typescript
     dev: false
 
-  /@antfu/eslint-config-react/0.35.1:
-    resolution: {integrity: sha512-jj3cIXaKDJ1u7Rn4OuT5GrIG6DHnCMWPdkBeLa8zg1auqf04hYA86PjB6bJlFmHdY1p2ZMfN1gP7VWroTzyW9A==}
+  /@antfu/eslint-config-react/0.37.0:
+    resolution: {integrity: sha512-uGYwVNWJkXDFIManjzOLHCsTc8dJm0+WkYqdhguxyG8nLwzBIwIH8bQUWZTOasg4TkisxVim0UrGaAMldyOLYQ==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@antfu/eslint-config-ts': 0.35.1
+      '@antfu/eslint-config-ts': 0.37.0
       eslint-plugin-react: 7.32.2
       eslint-plugin-react-hooks: 4.6.0
     transitivePeerDependencies:
