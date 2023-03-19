@@ -26,39 +26,11 @@ importers:
 
   packages/vue:
     specifiers:
-      '@antfu/eslint-config-vue': ^0.35.0
+      '@antfu/eslint-config-vue': ^0.37.0
     dependencies:
-      '@antfu/eslint-config-vue': 0.35.1
+      '@antfu/eslint-config-vue': 0.37.0
 
 packages:
-
-  /@antfu/eslint-config-basic/0.35.1:
-    resolution: {integrity: sha512-2o35g3SFz9B/0TfXCuwcwK3+KVjDrVFsPtlOim/c+p8MNOCW/LwksEpDnNcDgfVfXdpEKGaqNKTCmL1aDbZP7w==}
-    peerDependencies:
-      eslint: '>=7.4.0'
-    dependencies:
-      eslint-plugin-antfu: 0.35.1
-      eslint-plugin-eslint-comments: 3.2.0
-      eslint-plugin-html: 7.1.0
-      eslint-plugin-import: 2.27.5
-      eslint-plugin-jsonc: 2.6.0
-      eslint-plugin-markdown: 3.0.0
-      eslint-plugin-n: 15.6.1
-      eslint-plugin-no-only-tests: 3.1.0
-      eslint-plugin-promise: 6.1.1
-      eslint-plugin-unicorn: 45.0.2
-      eslint-plugin-unused-imports: 2.0.0
-      eslint-plugin-yml: 1.4.0
-      jsonc-eslint-parser: 2.1.0
-      yaml-eslint-parser: 1.1.0
-    transitivePeerDependencies:
-      - '@typescript-eslint/eslint-plugin'
-      - '@typescript-eslint/parser'
-      - eslint-import-resolver-typescript
-      - eslint-import-resolver-webpack
-      - supports-color
-      - typescript
-    dev: false
 
   /@antfu/eslint-config-basic/0.35.1_zvhwbtbnxiyupmlwsoiy4qnqgy:
     resolution: {integrity: sha512-2o35g3SFz9B/0TfXCuwcwK3+KVjDrVFsPtlOim/c+p8MNOCW/LwksEpDnNcDgfVfXdpEKGaqNKTCmL1aDbZP7w==}
@@ -69,16 +41,44 @@ packages:
       eslint-plugin-eslint-comments: 3.2.0
       eslint-plugin-html: 7.1.0
       eslint-plugin-import: 2.27.5_xfvdqyopd6lx2ukydhbamzgsxm
-      eslint-plugin-jsonc: 2.6.0
+      eslint-plugin-jsonc: 2.7.0
       eslint-plugin-markdown: 3.0.0
       eslint-plugin-n: 15.6.1
       eslint-plugin-no-only-tests: 3.1.0
       eslint-plugin-promise: 6.1.1
       eslint-plugin-unicorn: 45.0.2
       eslint-plugin-unused-imports: 2.0.0_dnstawpdlis6cizh7vq6ptmxda
-      eslint-plugin-yml: 1.4.0
-      jsonc-eslint-parser: 2.1.0
-      yaml-eslint-parser: 1.1.0
+      eslint-plugin-yml: 1.5.0
+      jsonc-eslint-parser: 2.2.0
+      yaml-eslint-parser: 1.2.0
+    transitivePeerDependencies:
+      - '@typescript-eslint/eslint-plugin'
+      - '@typescript-eslint/parser'
+      - eslint-import-resolver-typescript
+      - eslint-import-resolver-webpack
+      - supports-color
+      - typescript
+    dev: false
+
+  /@antfu/eslint-config-basic/0.37.0:
+    resolution: {integrity: sha512-iBj6qjAOQr+WMhK38lfR2/xdIY81qUk4i6tHhwmcxXi4GEf2HF6I4Cgeu9SyIlTxOw8AP1CVqdUNzUbmYSaMZg==}
+    peerDependencies:
+      eslint: '>=7.4.0'
+    dependencies:
+      eslint-plugin-antfu: 0.37.0
+      eslint-plugin-eslint-comments: 3.2.0
+      eslint-plugin-html: 7.1.0
+      eslint-plugin-import: 2.27.5
+      eslint-plugin-jsonc: 2.7.0
+      eslint-plugin-markdown: 3.0.0
+      eslint-plugin-n: 15.6.1
+      eslint-plugin-no-only-tests: 3.1.0
+      eslint-plugin-promise: 6.1.1
+      eslint-plugin-unicorn: 46.0.0
+      eslint-plugin-unused-imports: 2.0.0
+      eslint-plugin-yml: 1.5.0
+      jsonc-eslint-parser: 2.2.0
+      yaml-eslint-parser: 1.2.0
     transitivePeerDependencies:
       - '@typescript-eslint/eslint-plugin'
       - '@typescript-eslint/parser'
@@ -166,13 +166,13 @@ packages:
       - supports-color
     dev: false
 
-  /@antfu/eslint-config-vue/0.35.1:
-    resolution: {integrity: sha512-4wz92tHFG1RhAX6eS1d9or1socS34g4V2eXNxunHrHihyXoFOC1w0i0hznfLREGt0wqzZ+cxblD86n1c/fFHoA==}
+  /@antfu/eslint-config-vue/0.37.0:
+    resolution: {integrity: sha512-d7n4+7f6YMizE1HDEOtIBJGruFuIeqrNF+ZjHM8o6+isMrJkvdjVx6nHtHVtoWNYW6jiRJ5AW+nkfo2aoNGUyA==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@antfu/eslint-config-basic': 0.35.1
-      '@antfu/eslint-config-ts': 0.35.1
+      '@antfu/eslint-config-basic': 0.37.0
+      '@antfu/eslint-config-ts': 0.37.0
       eslint-plugin-vue: 9.9.0
       local-pkg: 0.4.3
     transitivePeerDependencies:
@@ -1092,17 +1092,6 @@ packages:
       - typescript
     dev: false
 
-  /eslint-plugin-jsonc/2.6.0:
-    resolution: {integrity: sha512-4bA9YTx58QaWalua1Q1b82zt7eZMB7i+ed8q8cKkbKP75ofOA2SXbtFyCSok7RY6jIXeCqQnKjN9If8zCgv6PA==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-    peerDependencies:
-      eslint: '>=6.0.0'
-    dependencies:
-      eslint-utils: 3.0.0
-      jsonc-eslint-parser: 2.2.0
-      natural-compare: 1.4.0
-    dev: false
-
   /eslint-plugin-jsonc/2.7.0:
     resolution: {integrity: sha512-DZgC71h/hZ9t5k/OGAKOMdJCleg2neZLL7No+YYi2ZMroCN4X5huZdrLf1USbrc6UTHwYujd1EDwXHg1qJ6CYw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
@@ -1271,20 +1260,6 @@ packages:
       semver: 7.3.8
       vue-eslint-parser: 9.1.0
       xml-name-validator: 4.0.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
-
-  /eslint-plugin-yml/1.4.0:
-    resolution: {integrity: sha512-vzggXNfPKa+arIaNUGoC3DPRZCxNty+xD/v9xOcE5D3Bj9SbgIrEobqVB35I8QxHd2YjL/dOS0xIIFmjAalwbw==}
-    engines: {node: ^14.17.0 || >=16.0.0}
-    peerDependencies:
-      eslint: '>=6.0.0'
-    dependencies:
-      debug: 4.3.4
-      lodash: 4.17.21
-      natural-compare: 1.4.0
-      yaml-eslint-parser: 1.2.0
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -1906,16 +1881,6 @@ packages:
     hasBin: true
     dependencies:
       minimist: 1.2.7
-    dev: false
-
-  /jsonc-eslint-parser/2.1.0:
-    resolution: {integrity: sha512-qCRJWlbP2v6HbmKW7R3lFbeiVWHo+oMJ0j+MizwvauqnCV/EvtAeEeuCgoc/ErtsuoKgYB8U4Ih8AxJbXoE6/g==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-    dependencies:
-      acorn: 8.8.1
-      eslint-visitor-keys: 3.3.0
-      espree: 9.4.1
-      semver: 7.3.8
     dev: false
 
   /jsonc-eslint-parser/2.2.0:
@@ -2687,15 +2652,6 @@ packages:
 
   /yallist/4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
-
-  /yaml-eslint-parser/1.1.0:
-    resolution: {integrity: sha512-b464Q1fYiX1oYx2kE8k4mEp6S9Prk+tfDsY/IPxQ0FCjEuj3AKko5Skf3/yQJeYTTDyjDE+aWIJemnv29HvEWQ==}
-    engines: {node: ^14.17.0 || >=16.0.0}
-    dependencies:
-      eslint-visitor-keys: 3.3.0
-      lodash: 4.17.21
-      yaml: 2.2.1
-    dev: false
 
   /yaml-eslint-parser/1.2.0:
     resolution: {integrity: sha512-OmuvQd5lyIJWfFALc39K5fGqp0aWNc+EtyhVgcQIPZaUKMnTb7An3RMp+QJizJ/x0F4kpgTNe6BL/ctdvoIwIg==}
