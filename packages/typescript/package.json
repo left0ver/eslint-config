@@ -25,6 +25,6 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@antfu/eslint-config-ts": "^0.37.0"
+    "@antfu/eslint-config-ts": "^0.43.0"
   }
 }
